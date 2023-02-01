@@ -1,0 +1,109 @@
+body {
+    margin: 0%;
+    background-color: #dcedff;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.Top {
+    background-color: #d8d8d8;
+    padding: 50px;
+    text-align: center;
+}
+
+.Middle {
+    background-color: #dcedff;
+}
+
+.Bottom {    
+    background-color: #dcedff;
+    padding: 30px;
+    text-align: center;
+}
+
+a:link {color: black;}
+a:visited {color: black;}
+a:active {color: black;}
+a:hover {color: #ff14cc;}
+a:link { text-decoration: none; }
+
+h1 {
+    color: black;
+    font-size: 35px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+h2 {
+    color: #149dff;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+h3 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Roboto Mono', sans-serif;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: #149dff;
+    padding: 4px 12px 4px 12px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+hr {
+    border-style: dashed;
+    border-color: #149dff;
+}
+#arch1 {
+    position: absolute;
+    right: 80%;
+}
+#arch2 {
+    position: absolute;
+    left: 80%;
+}
+#bando {
+    border: 5px solid black;
+    border-radius: 80px;
+}
+#computer {
+    position: relative;
+    left: 150px;
+}
+#sanford {
+    position: relative;
+    left: 150px;
+}
+#thumbs {
+    position: relative;
+    left: 150px;
+}
+.left {  
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+.right { 
+    height: 300px;
+    width: 50%;
+    float: right;
+}
+.contact {
+    text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.363);
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+    text-align: center;
+    background-color: #ffffff;
+    outline: auto;
+    outline-color: #000000;
+    outline-offset: 5px;
+}
